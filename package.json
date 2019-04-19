@@ -1,0 +1,23 @@
+{
+  "name": "mjmlstartertemplate",
+  "version": "1.0.0",
+  "description": "Starter development environment for the MJML email framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " concurrently \"mjml -w index.mjml -o index-compiled.html --config.minify\" \"browser-sync start --config 'bs-config.js'\"   "
+    
+  },
+  "keywords": [
+    "mjml"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "mjml": "^4.4.0-beta.1"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
