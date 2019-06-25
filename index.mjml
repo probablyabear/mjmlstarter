@@ -7,13 +7,21 @@
       <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
     </mj-attributes>
     <mj-style inline="inline">
-      .body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); }
+      .body-section {
+        -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      }
     </mj-style>
     <mj-style inline="inline">
-      .text-link { color: #5e6ebf }
+      .text-link {
+        color: #5e6ebf
+      }
     </mj-style>
     <mj-style inline="inline">
-      .footer-link { color: #888888 }
+      .footer-link {
+        color: #888888
+      }
     </mj-style>
 
   </mj-head>
@@ -23,7 +31,7 @@
         <mj-image src="https://via.placeholder.com/320x81?text=MJML+Starter" alt="" align="center" width="150px" />
         <mj-text color="#ffffff" font-weight="bold" align="center" text-transform="uppercase" font-size="16px" letter-spacing="1px" padding-top="30px">
           MJML Starter
-          <br/>
+          <br />
           Featuring:
         </mj-text>
         <mj-text color="#17CBC4" align="center" font-size="13px" padding-top="0" font-weight="bold" text-transform="uppercase" letter-spacing="1px" line-height="20px">
@@ -101,7 +109,7 @@
           </mj-text>
           <mj-text color="#637381" font-size="14px" padding-top="0">
             An Inbox Near You
-            <br/> 123 Main Street, 55555
+            <br /> 123 Main Street, 55555
           </mj-text>
         </mj-column>
         <mj-column width="50%">
@@ -110,7 +118,7 @@
           </mj-text>
           <mj-text color="#637381" font-size="14px" padding-top="0">
             Monday, December 20th: 8:00AM - 5:00PM
-            <br/> Tuesday, December 21st: 8:00AM - 5:00PM
+            <br /> Tuesday, December 21st: 8:00AM - 5:00PM
           </mj-text>
         </mj-column>
       </mj-section>
