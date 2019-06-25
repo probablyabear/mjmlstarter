@@ -1,13 +1,10 @@
 const fs = require("fs");
 const sgMail = require("@sendgrid/mail");
+require("dotenv").config();
 
 var testEmail = fs.readFileSync("./index-compiled.html", "utf-8");
 
-//console.log(testEmail);
-
-sgMail.setApiKey(
-  "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"
-);
+sgMail.setApiKey(process.env.SENDGRID_APIKEY);
 const msg = {
   to: "rust.stephen@gmail.com",
   from: "test@example.com",
